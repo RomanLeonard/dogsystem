@@ -1,0 +1,45 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+header a{
+    font-family: 'Roboto Condensed';
+    background: #d3635b;
+    text-decoration: none;
+    color: #000;
+    padding: 0.5em;
+}
+header a:hover{
+    background-color: #fff;
+    color: #d3635b;
+    cursor: pointer;
+    transition-duration: 150ms;
+}
+
+header button{
+    font-family: 'Roboto Condensed';
+    background: #1da54b;
+    border:none;
+    color: #000;
+    padding: 0.5em;
+}
+header button:hover{
+    background-color: #fff;
+    color: #1da54b;
+    cursor: pointer;
+    transition-duration: 150ms;
+}
+
+.container {
+    margin-top: 50px;
+    text-align: left;
+}

@@ -1,0 +1,173 @@
+.margin-right-input {
+  margin-right: 20px;
+}
+.middleInputText {
+  color: #000;
+  margin-right: 20px;
+}
+
+.button-activate-search {
+  padding: 5px 10px;
+  background-color: #198e40;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition-duration: 200ms;
+  border-radius: 10px;
+  color: #fff;
+  margin: 5px 0 5px 200px;
+  font-weight: 600;
+}
+.button-activate-search:hover {
+  background-color: #fff;
+  color: #198e40;
+  border-color: #198e40;
+}
+
+.top-wrapper {
+  background-color: #198e40;
+  width: 100%;
+  margin: 0px 0 40px 0;
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.23);
+}
+
+.left {
+  margin-top: 5px;
+  text-align: left;
+}
+.left h1 {
+  margin-left: 20px;
+  color: #fff;
+}
+
+.right {
+  text-align: center;
+  margin-top: 12px;
+}
+.right button {
+  width: 50%;
+  margin: auto;
+}
+.hidden {
+  display: none;
+}
+
+.custom-control label {
+  text-transform: uppercase;
+}
+
+.inp {
+  margin-top: 5px;
+}
+
+.modal-header {
+  background-color: #0b9b3b;
+  color: #fff;
+}
+
+/* Customize the label (the container) */
+.container {
+  background-color: #198b3f;
+  color: #fff;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 50%;
+  width: 7px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: translate(0, -50%) rotate(45deg);
+}
+.after-check {
+  border-radius: 5px;
+  text-align: center;
+  padding: 4px 5px 4px 5px;
+  border: solid #198b3f 1px;
+}
+.after-check::placeholder {
+  color: rgba(25, 139, 63, 0.5);
+}
+
+.inp {
+  width: 20%;
+}
+
+#close-calendar:hover {
+  background-color: #fff;
+  color: #198e40;
+  border-color: #198e40;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 768px) {
+  .top-wrapper .left {
+    margin-left: 0;
+    text-align: center;
+  }
+  .right {
+    padding-bottom: 20px;
+    margin-top: 0;
+  }
+  .right button {
+    width: 50%;
+  }
+  .after-check {
+    margin-bottom: 10px;
+  }
+}

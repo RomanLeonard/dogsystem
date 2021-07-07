@@ -1,0 +1,84 @@
+body {
+  background: #1da54b;
+  color: #fff;
+  font-weight: 800;
+  font-family: "Montserrat";
+  overflow: hidden;
+}
+.error-message {
+  text-align: center;
+  color: #ff0000;
+}
+.wrapper {
+  grid-template-columns: 1fr;
+  background: #fff;
+  font-weight: 400;
+  color: #1da54b;
+}
+.menu {
+  display: none;
+}
+.logout {
+  display: none;
+}
+
+.btn1 {
+  background: #177536;
+  width: 40%;
+  color: #fff;
+  padding: 0.5em;
+  border: 1px solid #1da54b;
+  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.22);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn1:hover {
+  background: #fff;
+  color: #1da54b;
+  border: 1px solid #1da54b;
+  transition-duration: 200ms;
+}
+.inp {
+  padding: 0.3em;
+  outline: none;
+  color: #1da54b;
+  border: #1da54b 1px solid;
+  border-radius: 10px;
+}
+.form-inp {
+  width: 100%;
+  margin: auto;
+}
+.form-inp input {
+  width: 70%;
+}
+.form-inp label {
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+.login {
+  background: #fff;
+  color: #1da54b;
+  width: 40%;
+  height: auto;
+  border-style: none;
+  border-radius: 20px;
+  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.content {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .login {
+    width: 95%;
+  }
+  .form-inp input {
+    width: 90%;
+  }
+  .btn1 {
+    width: 60%;
+  }
+}

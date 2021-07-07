@@ -1,0 +1,224 @@
+.container {
+  font-family: "Roboto", sans-serif;
+}
+.top-text-info {
+  background: #198e40;
+  color: #fff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.debugg {
+  background: #f1f1f1;
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+}
+.buttons input {
+  width: 40%;
+  border: 1px solid #198e40;
+  color: #198e40;
+  background: #f3f3f3;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 15px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+  transition-duration: 150ms;
+  cursor: pointer;
+}
+.buttons #salvare:hover {
+  border-color: #f3f3f3;
+  color: #fff;
+  box-shadow: none;
+  background: #198e40;
+}
+#anulare {
+  color: #e82929;
+  border-color: #e82929;
+}
+.buttons #anulare:hover {
+  border-color: #f3f3f3;
+  box-shadow: none;
+  color: #fff;
+  background: #e82929;
+}
+.detcatel-wrapper {
+  margin-top: 50px;
+}
+.detcatel-wrapper span {
+  float: right;
+  margin-right: 30px;
+}
+.detcatel-wrapper li:nth-child(odd) {
+  background-color: #e6f2ea;
+}
+.border-img {
+  border: 1px solid #198e40;
+  box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.list-details {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.list-details1 {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+.editare-wrapper {
+  background: #f3f3f3;
+  display: none;
+}
+.custom-tabel {
+  width: 95%;
+  border: 1px solid #136d31;
+  position: relative;
+  margin-bottom: 150px;
+}
+.custom-tabel tabel {
+  text-align: center;
+  cursor: default;
+}
+.custom-tabel tr:nth-child(odd) {
+  background: #e6f2ea;
+}
+.custom-table tabel input {
+  border-color: #fff;
+}
+.custom-table th {
+  background: #198e40;
+}
+table td {
+  padding: 20px 0;
+  text-align: center;
+}
+.custom-table-items {
+  padding: 0;
+  color: #fff;
+}
+.custom-table-items input {
+  border: none;
+  background: #136d31;
+  text-align: center;
+  padding: 15px 0;
+  color: #fff;
+  outline-color: #136d31;
+}
+.custom-table-items input::placeholder {
+  color: #fff;
+}
+.special-button {
+  position: absolute;
+  width: 100%;
+  border-style: none;
+  color: #fff;
+  background: #198e40;
+  padding: 10px;
+  left: 0;
+  bottom: -45px;
+}
+.special-button:hover {
+  background: #136d31;
+  cursor: pointer;
+}
+
+.activate-edit {
+  margin: 100px 0 0 0;
+  width: 100%;
+  background: #afccb8;
+}
+.activate-edit button {
+  width: 100%;
+  padding: 2em;
+  color: #fff;
+  font-weight: 800;
+  background: #198e40;
+  border-style: none;
+}
+
+.activate-edit button:hover {
+  background: #136d31;
+  cursor: pointer;
+}
+.activate-edit i {
+  margin-right: 10px;
+}
+.fulltabel button:hover {
+  background: #136d31;
+  cursor: pointer;
+}
+
+.fulltabel-edit {
+  display: none;
+  width: 100%;
+  background: #f3f3f3;
+  padding: 20px;
+  margin-top: 100px;
+}
+.fulltabel-edit input {
+  margin: 5px 0;
+}
+.fulltabel-edit input::placeholder {
+  color: #000;
+}
+.fulltabel-edit textarea::placeholder {
+  color: #000;
+}
+
+.fulltabel-edit #f-save {
+  margin: 20px auto;
+  font-weight: 700;
+  padding: 20px 70px;
+  border: 1px solid #198e40;
+  color: #198e40;
+  border-radius: 15px;
+  background: #f3f3f3;
+  transition-duration: 150ms;
+}
+.fulltabel-edit #f-save:hover {
+  border-color: #f3f3f3;
+  background: #198e40;
+  color: #f3f3f3;
+}
+
+.fulltabel-edit #f-cancel {
+  margin: 20px auto;
+  transition-duration: 150ms;
+  padding: 20px 70px;
+  border-radius: 15px;
+  font-weight: 700;
+  background: #f3f3f3;
+  border: 1px solid #e82929;
+  color: #e82929;
+}
+.fulltabel-edit #f-cancel:hover {
+  border-color: #f3f3f3;
+  background: #e82929;
+  color: #f3f3f3;
+}
+.tabel-text-info {
+  margin: auto;
+  width: 95%;
+  padding: 0;
+  cursor: default;
+}
+
+@media screen and (max-width: 768px) {
+  .buttons input {
+    width: 90%;
+  }
+  .img-fluid {
+    width: 100%;
+  }
+  .responsivness {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .custom-tabel {
+    width: 100%;
+    margin: 50px auto;
+  }
+  .top-text-info .text h1 {
+    font-size: 1.5em !important;
+  }
+  .tabel-text-info h1 {
+    font-size: 1em;
+  }
+}

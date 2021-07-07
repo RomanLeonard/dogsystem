@@ -1,0 +1,67 @@
+.adauga-text {
+  background: #198e40;
+  color: #fff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.adauga-text h1 {
+  padding: 0.2em;
+  margin-left: 10%;
+}
+.steril-details-modal {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.steril-details-modal legend {
+  text-align: center;
+}
+.steril-details-modal .radio {
+  text-align: left;
+}
+.buttons {
+  width: 100%;
+  margin: auto;
+}
+.btn1 {
+  margin-top: 50px;
+  font-family: "Montserrat";
+  background: #fff;
+  padding: 1em 5em;
+  border-radius: 15px;
+  border: 1px solid #1da54b;
+  font-weight: 500;
+  color: #1da54b;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  outline: none;
+}
+.anulare {
+  border-color: #dd2727;
+  color: #dd2727;
+}
+.addbtn:hover {
+  transition-duration: 250ms;
+  background: #1da54b;
+  border-color: #fff;
+  border-radius: 15px;
+  color: #fff;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+.anulare:hover {
+  transition-duration: 250ms;
+  background: #dd2727;
+  border-radius: 15px;
+  border-color: #fff;
+  color: #fff;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+@media screen and (max-width: 768px) {
+  .btn1 {
+    border-radius: 15px !important;
+  }
+  .adauga-text h1 {
+    font-size: 1.5em !important;
+  }
+  .text-detalii-fisa-caine h1 {
+    font-family: 1.5em;
+  }
+}
